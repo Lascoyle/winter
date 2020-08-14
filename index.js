@@ -8,6 +8,8 @@ function navItemsDisplayer () {
             item.style.display = "block";
             navItemsDisplayed = true;
             dropdownToggler.setAttribute("src", 'assets/cross.png');
+            dropdownToggler.style.transform = "rotate(180deg)";
+            dropdownToggler.setAttribute("class", 'dropdown-rotate');
         }
     }
 
@@ -16,6 +18,7 @@ function navItemsDisplayer () {
             item.style.display = "none";
             navItemsDisplayed = false;
             dropdownToggler.setAttribute("src", 'assets/dropdown.png');
+            dropdownToggler.removeAttribute("class", 'dropdown-rotate');
         }
     }
 }

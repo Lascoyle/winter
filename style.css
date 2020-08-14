@@ -26,6 +26,10 @@ ul {
     display: block;
 }
 
+a, a:hover {
+    text-decoration: none;
+}
+
 
 /* Header */
 .background-layer {
@@ -67,6 +71,20 @@ nav {
     width: 30px;
 }
 
+.dropdown-rotate {
+    animation: rotate 1.2s ease-in-out;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(180deg);
+    }
+}
+
 #dropdown-toggler:hover {
     cursor: pointer;
 }
@@ -75,8 +93,11 @@ nav {
     margin-top: 15px;
 }
 
-.nav-item {
+.nav-link {
     color: #f7e3aa;
+}
+
+.nav-item {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 35px;
