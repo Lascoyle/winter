@@ -1,0 +1,103 @@
+/* Cleaning browses'style */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto', 'sans-serif';
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.img {
+    display: block;
+}
+
+
+/* Header */
+.background-layer {
+    background-color: #474747;
+}
+
+.landing-layer {
+    background-image: url(assets/winterland2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    width: 100vw;
+}
+
+.nav-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.navbrand {
+    height: 70px;
+    width: 50px;
+}
+
+#dropdown-toggler {
+    height: 30px;
+    width: 30px;
+}
+
+#dropdown-toggler:hover {
+    cursor: pointer;
+}
+
+#navbar-collapse {
+    margin-top: 15px;
+}
+
+.nav-item {
+    color: #f7e3aa;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    border-top: 1px solid rgba(185, 185, 185, 0.486);
+    background-color: #5c5c5c83;
+    display: none;
+    animation: slide 1.2s ease-in-out;
+}
+
+@keyframes slide {
+    from {
+        margin-top: -100px;
+    }
+
+    to {
+        margin-top: 0px
+    }
+}
+
+
+.social-media {
+    width: 50px;
+    height: 50px;
+}
