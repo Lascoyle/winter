@@ -192,3 +192,29 @@ nav {
     margin-right: 20px;
 }
 
+@media screen and (min-width: 520px) and (max-width: 700px) {
+    .main-title {
+        width: 80%;
+        margin-top: 100px;
+    }
+
+    .presentation-content {
+        width: 95%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+
+    .social-medias {
+        margin-top: 80px;
+        margin-right: 50px;
+    }
+
+    .further-button {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 900px) {
+
+}
