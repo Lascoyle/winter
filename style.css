@@ -339,3 +339,78 @@ nav {
         right: 15%;
     }
 }
+
+@media screen and (min-width: 1300px)  {
+    #dropdown-toggler {
+        display: none;
+    }
+
+    #navbar-collapse {
+        display: flex;
+        flex-direction: row;
+        margin-top: -75px;
+        padding-right: 3%;
+    }
+
+    .nav-item {
+        display: block;
+        background-color: #00000000;
+    }
+
+    .nav-link {
+        color: #f7e3aa;
+    }
+    .nav-link:hover {
+        color: #d83c23;
+    }
+
+    .presentation-container {
+        width: 75%;
+        padding: 10%;
+    }
+
+    .main-title {
+        margin: 0 auto;
+        margin-top: 150px;
+        width: 80%;
+        margin-top: 80px ;
+    }
+
+    .presentation-content {
+        margin: 0 auto;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 1.1em;
+        width: 80%;
+    }
+
+    .social-medias {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+        justify-content: space-around;
+        width: 40%;
+    }
+
+    .social-media {
+        width: 60px;
+        height: 60px;
+    }
+
+    .further-button {
+        float: none;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding: 15px;
+        font-size: 1em;
+        font-weight: 500;
+        width: 200px;
+    }
+
+    .boy-illustration {
+        position: absolute;
+        width: 500px;
+        bottom: 30px;
+        right: 10%;
+    }
+}
